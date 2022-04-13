@@ -9,6 +9,8 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
 
 gem 'active_model_serializers'
 
@@ -25,5 +27,4 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'shoulda-matchers', '~> 5.0'
-  gem 'date_validator'
 end
