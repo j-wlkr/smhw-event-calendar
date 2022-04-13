@@ -24,4 +24,5 @@ group :development, :test do
   gem 'listen'
   gem 'spring'
   gem 'spring-watcher-listen'
+  gem 'shoulda-matchers', '~> 5.0'
 end
