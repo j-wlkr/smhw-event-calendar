@@ -25,4 +25,5 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'shoulda-matchers', '~> 5.0'
+  gem 'date_validator'
 end
