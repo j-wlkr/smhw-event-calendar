@@ -11,7 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
-
+gem 'jbuilder'
 gem 'active_model_serializers'
 
 gem 'puma'
