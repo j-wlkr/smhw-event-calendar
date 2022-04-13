@@ -2,6 +2,11 @@
 
 <%= link_to 'Create event' %>
 
-<!-- Remove the following image tag and add the markup to create a basic weekly calendar -->
-<%= image_tag 'events_calendar', width: '100%' %>
-
+<% @events.each do |event|%>
+  <ul><%= event.title %></ul>
+    <li><%= event.description %></li>
+    <li><%= event.teacher %></li>
+    <li><%= event.start_date %></li>
+    <li><%= event.end_date  %></li>
+  </ul>
+<% end %>
