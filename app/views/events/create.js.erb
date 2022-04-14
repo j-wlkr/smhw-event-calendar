@@ -1,0 +1,6 @@
+$('#new_event').html("<%= j render partial: 'new_event', locals: { event: Event.new } %>")
+$('#calendar').fullCalendar(
+  'renderEvent',
+  $.parseJSON("<%=j render(@event, format: :json).html_safe %>"),
+  true
+);
