@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#calendar-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#calendar-form {
+  display: flex;
+  justify-content: center;
+}
