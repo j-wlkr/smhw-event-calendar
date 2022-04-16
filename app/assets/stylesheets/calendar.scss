@@ -7,9 +7,22 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 10px;
+  h1 {
+    color: #FFBA49;
+  }
 }
 
 #calendar-form {
   display: flex;
   justify-content: center;
+  margin-bottom: 8px;
+}
+
+.fc-content {
+  padding: 5px 0 5px 5px;
+  color: black;
+  strong {
+    font-weight: bolder;
+  }
 }
