@@ -7,16 +7,12 @@ class EventsController < ApplicationController
   def create
     @event = Event.new(event_params)
     @event.save
-    # redirect_back(fallback_location: root_path)
+    redirect_back(fallback_location: root_path)
   end
 
   private
 
   def event_params
     params.permit(:start_date, :end_date, :title, :description, :teacher)
-  end
-
-  def set_default_response_format
-    request.format = :json
   end
 end
